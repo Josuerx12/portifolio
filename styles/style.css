@@ -30,6 +30,7 @@ li, a{
 
 .logo {
     font-size: 30px;
+    cursor: pointer;
 }
 
 .logo span {
@@ -42,7 +43,6 @@ li, a{
 }
 
 .menu, li>a {
-    /*padding: 5px 20px;*/
     padding: 10px 30px;
 }
 
@@ -69,6 +69,7 @@ li, a{
     font-weight: 700;
     font-size: 18px;
     cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.384);
 }
 
 .contract-btn>button:hover {
@@ -84,3 +85,18 @@ li, a{
         transform: rotate(360deg);
     }
 }
+
+.content-container {
+    min-height: 100vh;
+    height: 500px;
+    background: linear-gradient(45deg, #f2c02bcc, #f2c02b8f, #f2c02bcc);
+}
+
+.infos {
+    position: relative;
+    top: 400px;
+    right: 0;
+    left: 300px;
+    bottom: 0;
+}
+
