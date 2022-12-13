@@ -86,17 +86,130 @@ li, a{
     }
 }
 
-.content-container {
+.home {
+    padding: 0px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: -1;
     min-height: 100vh;
     height: 500px;
     background: linear-gradient(45deg, #f2c02bcc, #f2c02b8f, #f2c02bcc);
 }
 
-.infos {
-    position: relative;
-    top: 400px;
-    right: 0;
-    left: 300px;
-    bottom: 0;
+aside>img {
+    margin: 0 150px 0 0;
+    width: 400px;
+    height: 300px;
+    opacity: 70%;
 }
 
+.infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infos>p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: -25px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.infos>p>span {
+    color: #053f20;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.infos>h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.sobre-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    height: 500px;
+}
+
+.sobre-content>h6 {
+    font-size: 30px;
+}
+
+.technologies {
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.html-ico {
+    padding: 10px 5px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #e34c26, #f06529);
+    color: #ebebeb;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+.css-ico {
+    padding: 10px 5px;
+    border-radius: 8px;
+    background: linear-gradient(to right, #264de4, #2965f1);
+    color: #ebebeb;
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+}
+
+.win-ico {
+    padding: 10px 5px;
+    border-radius: 8px;
+    background:#00A4EF;
+    color: #ebebeb;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.git-ico {
+    padding: 10px 5px;
+    border-radius: 8px;
+    background:#171515;
+    color: #ebebeb;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 100px;
+    background-color: #00A4EF;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.photo {
+    border-radius: 200px;
+    image-resolution: cover;
+    width: 256px;
+}
+
+.sobre>p {
+    font-size: 17px;
+}
+
+.sobre>p>span {
+    font-size: 19px;
+    font-weight: 700;
+}
