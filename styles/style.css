@@ -9,7 +9,6 @@ body {
 
 li, a{
     list-style: none;
-    color: black;
     text-decoration: none;
     font-size: 20px;
 }
@@ -20,6 +19,7 @@ li, a{
     left: 0;
     right: 0;
     padding: 0px 80px;
+    z-index: 999;
 }
 
 .navbar {
@@ -42,11 +42,12 @@ li, a{
     justify-content: center;
 }
 
-.menu, li>a {
+.menu>li>a {
+    color: black;
     padding: 10px 30px;
 }
 
-.menu> li>a:hover{
+.menu>li>a:hover{
     background-color: #053f20;
     color: rgba(226, 233, 240, 0.938);
     border-radius: 52px;
@@ -77,18 +78,6 @@ li, a{
     animation: btn-animation 1.8s;
 }
 
-.btn {
-    border-radius: 32px;
-    padding: 14px 30px;
-    border: none;
-    background-color: #053f20;
-    color: rgba(226, 233, 240, 0.938);
-    font-weight: 700;
-    font-size: 18px;
-    cursor: pointer;
-    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.384);
-}
-
 @keyframes btn-animation {
     0% {
         transform:rotate(0deg);
@@ -104,7 +93,6 @@ li, a{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    position: relative;
     z-index: -1;
     min-height: 100vh;
     height: 500px;
@@ -142,6 +130,60 @@ aside>img {
 .infos>h3 {
     font-weight: 700;
     font-size: 30px;
+}
+
+.infos>h5 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: -5px;
+    padding: 10px 31px;
+    border-radius: 10px 10px 0px 0px;
+    background: #2695c9;
+}
+
+.redes-sociais {
+    z-index: 1;
+    display: flex;
+    gap: 30px;
+    background: #57b1db;
+    padding: 20px;
+    border-radius: 8px 8px 12px 12px;
+}
+
+.instagram>a {
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    padding: 0;
+    border-radius: 12px;
+    color: #fff;
+    background: linear-gradient(45deg, #405DE6, #5B51D8, #833AB4, #C13584, #E1306C, #FD1D1D, #F56040, #F77737, #FCAF45, #FFDC80);
+}
+
+.instagram>a:hover{
+    transform: translateY(-8px);
+    transition: 0.6s;
+}
+
+.github>a {
+    border-radius: 12px;
+    background: #171515;
+    color: #fff;
+}
+
+.github>a:hover{
+    transform: translateY(-8px);
+    transition: 0.6s;
+}
+
+.linkedin>a {
+    border-radius: 12px;
+    background: #0A66C2;
+    color: #fff;
+}
+
+.linkedin>a:hover{
+    transform: translateY(-8px);
+    transition: 0.6s;
 }
 
 .sobre-content {
