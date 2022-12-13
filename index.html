@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <div class="container">
@@ -62,6 +63,11 @@
         <div class="infos">
             <P>Meu nome é <span>Josue Carvalho</span></P>
             <h3>Front-End Developer</h3>
+            <button class="btn">
+                <a href="#">
+                    Contrate-me
+                </a>
+            </button>
         </div>
         <aside>
             <img src="./assets/imgs/pngegg.png" alt="dev-op-img">
@@ -69,8 +75,8 @@
     </div>
     
     <main class="sobre-content">
-        <h6>Tecnologias</h6>
-        <div class="technologies">
+        <h6 data-aos="fade-up" data-aos-duration="3000">Tecnologias</h6>
+        <div data-aos="fade-up" data-aos-duration="3000" class="technologies">
                 <li>
                     <a class="html-ico" href="#">
                         <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-html5" width="50" height="50" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -109,31 +115,30 @@
                 </li>
         </div>
 
-        <div class="sobre">
+        <div data-aos="fade-up" data-aos-duration="3000" class="sobre">
             <img class="photo" src="./assets/imgs/minha-foto.jpg" alt="">
             <p>
                 Olá me chamo <strong>Josue</strong>, estudante de Desenvolvimento de
-                <br>
-                sites , atualmente estou estudando a tecnologia
-                <br>
-                Javascript.
+                sites, atualmente estou estudando a tecnologia Javascript.
                 <br>
                 <br>
                 <span>Porque quis me tornar um desenvovedor Front-End?</span>
                 <br>
                 Sempre gostava de sites, design, mas não tinha 
-                <br>
                 conhecimento dessas tecnologias, sendo assim
-                <br>
                 depois de algum tempo, me veio a vontade de 
-                <br>
-                aprender sobre, e hoje amo oque estou a fazer.
-                <br>
+                aprender sobre, e hoje amo oque estou a fazer. 
             </p>
+            
         </div>
     </main>
 
+    <main class="projetos-container">
 
-    <script src="./js/index.js"></script>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

@@ -77,6 +77,18 @@ li, a{
     animation: btn-animation 1.8s;
 }
 
+.btn {
+    border-radius: 32px;
+    padding: 14px 30px;
+    border: none;
+    background-color: #053f20;
+    color: rgba(226, 233, 240, 0.938);
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.384);
+}
+
 @keyframes btn-animation {
     0% {
         transform:rotate(0deg);
@@ -207,6 +219,8 @@ aside>img {
 
 .sobre>p {
     font-size: 17px;
+    width: 480px;
+    text-align: justify;
 }
 
 .sobre>p>span {
