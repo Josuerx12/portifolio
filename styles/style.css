@@ -51,8 +51,8 @@ li, a{
     background-color: #053f20;
     color: rgba(226, 233, 240, 0.938);
     border-radius: 52px;
-    transform: translateY(-12px);
-    transition: 0.6s;
+    transform: translateY(-10px);
+    transition: 0.4s;
 }
 
 .menu, a {
@@ -75,7 +75,7 @@ li, a{
 
 .contract-btn>button:hover {
     color: #f2bf2b;
-    animation: btn-animation 1.8s;
+    animation: btn-animation 0.8s;
 }
 
 @keyframes btn-animation {
@@ -112,7 +112,7 @@ aside>img {
     align-items: center;
     justify-content: center;
 }
-.infos>p {
+.infos>span {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -121,7 +121,7 @@ aside>img {
     font-weight: 400;
 }
 
-.infos>p>span {
+.infos>span>h1 {
     color: #053f20;
     font-size: 36px;
     font-weight: 700;
