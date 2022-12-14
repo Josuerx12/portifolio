@@ -269,3 +269,24 @@ aside>img {
     font-size: 19px;
     font-weight: 700;
 }
+
+.projetos-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projetos-container>h4 {
+    font-size: 30px;
+}
+
+.projetos {
+    display: flex;
+    gap: 30px;
+}
+
+.projetos>li>a>img {
+    width: 250px;
+    height: 200px;
+}
