@@ -286,7 +286,61 @@ aside>img {
     gap: 30px;
 }
 
-.projetos>li>a>img {
+.projects-name {
+    font-size: 18px;
+}
+
+.projetos>.project-profile-card>li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: url("../assets/imgs/profilecardbackground.png");
+    background-size: cover;
+    background-position: 50%;
     width: 250px;
     height: 200px;
 }
+
+.projetos>.project-profile-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.projetos>.project-portifolio>li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: url("../assets/imgs/portifoliobackground.jpg");
+    background-size: cover;
+    background-position: 50%;
+    width: 250px;
+    height: 200px;
+}
+
+.projetos>.project-portifolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.projetos>.project-landing-page>li{
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    background: url("../assets/imgs/coming-soon.jpg");
+    background-size: cover;
+    background-position: 50%;
+    width: 250px;
+    height: 200px;
+}
+
+.projetos>.project-landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
